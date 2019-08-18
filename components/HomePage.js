@@ -23,7 +23,7 @@ export class HomePage extends Component {
             <FontAwesome name="newspaper-o" size={27} color="white" />
         );
         return { drawerLabel, drawerIcon };
-      }
+    }
 
     componentDidMount() {
         this.getNews();
